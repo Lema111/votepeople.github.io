@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#ranking, #persons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.name {
+  margin-right: 10px;
+}
+
+button {
+  margin: 0 10px;
+}
